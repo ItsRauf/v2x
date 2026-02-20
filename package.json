@@ -6,6 +6,8 @@
   "description": "Build Discord components with the power of JSX",
   "main": "index.js",
   "scripts": {
+    "postinstall": "lefthook install",
+    "commit": "gitmoji -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
